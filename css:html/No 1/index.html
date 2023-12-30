@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saeed Niyabati - Personal Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      href="data:image/x-icon;base64,AAABAAEAEBACAAAAAACwAAAAFgAAACgAAAAQAAAAIAAAAAEAAQAAAAAAQAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAmUoVAD/8AAAgBAAAIBQAACPEAAAgBAAAL/QAACAEAAAv9AAAIAQAAC/0AAAgBAAALwQAACA8AAAsOAAAIDAAAD/gAADAAwAA3/sAAN/rAADcOwAA3/sAANALAADf+wAA0AsAAN/7AADQCwAA3/sAAND7AADfwwAA08cAAN/PAADAHwAA"
+      rel="icon"
+      type="image/x-icon"
+    />
+    <!-- <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon"> -->
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/my-avatar.png"
+              alt="Saeed Niyabati"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Saeed Niyabati">Saeed Niyabati</h1>
+
+            <p class="title">BackEnd developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:s.mahdiamin@gmail.com" class="contact-link"
+                  >saeedsnaid@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+989374693649" class="contact-link"
+                  >+98 (921) 496-9964</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Mashhad, IR</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://github.com/saeid1994"
+                class="social-link"
+                target="_blank"
+              >
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/saeid-niyabati/"
+                class="social-link"
+                target="_blank"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I've been programming for over <u><b>8 years</b></u
+              >. My professional career started 4 years ago as a web developer
+              on <u><b>MERN stack</b></u
+              >. I am a full-stack web developer with
+              <u><b>Backbone/React/NEXT.JS</b></u> experience for frontend
+              development, <u><b>Node.js/express</b></u> experience on backend,
+              <u><b>MongoDB and MySQL</b></u> for databases. I am also a Linux
+              enthusiast. I value personal growth, open-mindedness, teamwork,
+              critical and deep thinking and kindness toward every being
+              regardless of race, nationality, religion. My philosophy is:
+              Cosmos is vast, possibilities are infinite but our time is finite
+              and our life is short; let's explore, learn and wonder together
+              with peace and respect
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Node.js/Express</h4>
+
+                  <p class="service-item-text">
+                    Employing Node.js and Express to architect robust backend
+                    solutions, ensuring seamless server-side functionality and
+                    efficient API integrations.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/database-search-icon.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Database</h4>
+
+                  <p class="service-item-text">
+                    Proficiently utilizing MySQL and MongoDB databases,
+                    designing schemas and executing queries to manage and store
+                    data effectively for scalable applications.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/ai.png"
+                    alt="machine learning"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">JavaScript</h4>
+
+                  <p class="service-item-text">
+                    Collaborating with diverse teams to deliver innovative
+                    solutions, employing a comprehensive understanding of
+                    JavaScript to build and maintain high-quality, feature-rich
+                    applications in the MERN stack ecosystem.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/project-analysis-icon.svg"
+                    alt="camera icon"
+                    width="45"
+                  />
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Next.js</h4>
+                  <p class="service-item-text">
+                    Leveraging Next.js to craft performant and dynamic web
+                    applications, implementing modern UI/UX principles and
+                    optimizing for responsiveness.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - technologies
+        -->
+
+          <section class="technologies">
+            <h3 class="h3">Technologies</h3>
+
+            <div class="technologies-list">
+              <div class="icon-box" style="width: 64px; height: 64px">
+                <img
+                  src="./assets/images/tech/javascript.svg"
+                  alt="javascript"
+                />
+              </div>
+
+              <div class="icon-box" style="width: 64px; height: 64px">
+                <img src="./assets/images/tech/mysql.svg" alt="mysql" />
+              </div>
+
+              <div class="icon-box" style="width: 64px; height: 64px">
+                <img
+                  src="./assets/images/tech/react.svg"
+                  style="width: 52px; height: 52px"
+                  alt="react"
+                />
+              </div>
+
+              <div class="icon-box" style="width: 64px; height: 64px">
+                <img
+                  src="./assets/images/tech/nextjs.svg"
+                  style="width: 52px; height: 52px"
+                  alt="react"
+                />
+              </div>
+              <div class="icon-box" style="width: 64px; height: 64px">
+                <img
+                  src="./assets/images/tech/nodejs.svg"
+                  style="width: 52px; height: 52px"
+                  alt="react"
+                />
+              </div>
+              <div class="icon-box" style="width: 64px; height: 64px">
+                <img
+                  src="./assets/images/tech/mongodb.svg"
+                  style="width: 52px; height: 52px"
+                  alt="react"
+                />
+              </div>
+              <div class="icon-box" style="width: 64px; height: 64px">
+                <img
+                  src="./assets/images/tech/mocha.svg"
+                  style="width: 52px; height: 52px"
+                  alt="react"
+                />
+              </div>
+              <div class="icon-box" style="width: 64px; height: 64px">
+                <img
+                  src="./assets/images/tech/tailwindcss.svg"
+                  style="width: 52px; height: 52px"
+                  alt="react"
+                />
+              </div>
+            </div>
+          </section>
+
+          <!--
+        - #RESUME
+      -->
+
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <a target="_blank">
+                  <h4 class="h4 timeline-item-title">1880 Company :</h4>
+                </a>
+
+                <span>2020 — 2023</span>
+
+                <p class="timeline-text">
+                  ◉ Functioned as a versatile Full-stack Developer, contributing
+                  significantly to both frontend and backend development within
+                  cross-functional teams, utilizing the MERN stack to architect
+                  scalable and responsive applications. <br />
+                  ◉ Led backend development initiatives, implementing robust
+                  server-side solutions using Node.js, Express, MySQL, and
+                  MongoDB, ensuring seamless data management and API
+                  integrations.<br />
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Forvest & The Estateir</h4>
+
+                <span>2023 — present</span>
+
+                <p class="timeline-text">
+                  ◉ Serve as a Backend Developer, driving backend system
+                  architecture and development utilizing Node.js, Express, and
+                  MongoDB to deliver high-performance, scalable, and secure
+                  solutions.<br />
+                  ◉ Lead efforts in optimizing data management and backend
+                  functionality, collaborating with teams to enhance application
+                  performance and reliability in a fast-paced environment.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <!-- education -->
+          <!-- <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Bachelor of Science (B.S.), Computer Science
+                </h4>
+
+                <span>2016 — 2021</span>
+
+                <p class="timeline-text">
+                  <a
+                    href="website of university"
+                    alt=""
+                    style="color: aliceblue"
+                  >
+                    
+                  </a>
+                </p>
+              </li>
+            </ol>
+          </section> -->
+
+          <!--
+        - #PORTFOLIO
+      -->
+
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>web application</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web Application</button>
+                </li>
+              </ul>
+            </div>
+
+            <!-- <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web scraping"
+              >
+                <a
+                  href="https://github.com/seyedmahdiamin1998/DivarCrawler"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/portfolio/divar.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Divar.ir</h3>
+
+                  <p class="project-category">web scraping</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web scraping"
+              >
+                <a
+                  href="https://github.com/seyedmahdiamin1998/catawiki"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/portfolio/catawiki.png"
+                      alt="catawiki"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">catawiki.com</h3>
+
+                  <p class="project-category">Web scraping</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="application"
+              >
+                <a
+                  href="https://github.com/seyedmahdiamin1998/gold-calculator"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/portfolio/gold.png"
+                      alt="gold-calculator"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Gold price calculator</h3>
+
+                  <p class="project-category">application</p>
+                </a>
+              </li>
+            </ul> -->
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
